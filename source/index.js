@@ -1,6 +1,9 @@
 "use strict";
-const _ = require("lodash");
 
+// Dep aggiunte da me
+const _ = require("lodash");
+const Utils = require('sequelize/lib/utils');
+//
 
 const { Sequelize, Model, Transaction } = require('sequelize');
 
