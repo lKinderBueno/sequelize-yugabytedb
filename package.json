@@ -21,13 +21,14 @@
   "author": "Sanyam Singhal <ssinghal@yugabyte.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "pg": "^8.6.0",
-    "sequelize": "^6.6.5"
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
-    "mocha": "^9.0.3"
+    "mocha": "^9.0.3",
+    "sequelize": "^6.37.2",
+    "pg": "^8.11.5"
   },
   "repository": {
     "type": "git",
